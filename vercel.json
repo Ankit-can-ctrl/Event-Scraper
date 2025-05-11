@@ -10,11 +10,17 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/server.js"
+      "dest": "src/server.js",
+      "headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET,OPTIONS,PATCH,DELETE,POST,PUT",
+        "Access-Control-Allow-Headers": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version, Authorization"
+      }
     }
   ],
   "env": {
     "NODE_ENV": "production",
-    "FRONTEND_URL": "https://event-scraper-frontend-8bzugd0zf-ankits-projects-bc329337.vercel.app"
+    "FRONTEND_URL": "https://event-scraper-frontend-aktn1tkn4-ankits-projects-bc329337.vercel.app"
   }
 }
