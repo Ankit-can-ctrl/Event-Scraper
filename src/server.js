@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || '*',
+  origin: ['https://event-scraper-frontend.vercel.app', 'https://event-scraper-frontend-aktn1tkn4-ankits-projects-bc329337.vercel.app', '*'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
