@@ -15,6 +15,6 @@
   ],
   "env": {
     "NODE_ENV": "production",
-    "FRONTEND_URL": "https://your-frontend-url.vercel.app"
+    "FRONTEND_URL": "https://event-scraper-frontend-8bzugd0zf-ankits-projects-bc329337.vercel.app"
   }
-} 
+}
