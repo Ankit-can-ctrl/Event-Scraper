@@ -14,6 +14,7 @@
     }
   ],
   "env": {
-    "NODE_ENV": "production"
+    "NODE_ENV": "production",
+    "FRONTEND_URL": "https://your-frontend-url.vercel.app"
   }
 } 
